@@ -1,12 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppGuiaCurso.Views.ComponenteSegundo">
+             x:Class="AppGuiaCurso.Views.ComponenteSegundo"
+             BackgroundColor="#F3F2F0"
+             Title="Disciplinas do Segundo Módulo">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
+
+                <Button Text="Inglês Instrumental" Clicked="Button_Clicked" Style="{StaticResource grayButton}"/>
+                <Button Text="Desenvolvimento de Sistemas" Clicked="Button_Clicked_1" Style="{StaticResource grayButton}"/>
+                <Button Text="Banco de Dados II" Clicked="Button_Clicked_2" Style="{StaticResource grayButton}"/>
+                <Button Text="Internet e Protocolos" Clicked="Button_Clicked_3" Style="{StaticResource grayButton}"/>
+                <Button Text="Programação de Aplicativos Mobile I" Clicked="Button_Clicked_4" Style="{StaticResource grayButton}"/>
+                <Button Text="Programação Web II" Clicked="Button_Clicked_5" Style="{StaticResource grayButton}"/>
+                <Button Text="Planejamento do Trabalho de Conclusão de Curso (TCC) em Desenvolvimento de sistemas" 
+                        Clicked="Button_Clicked_6" Style="{StaticResource grayButton}"/>
+                
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

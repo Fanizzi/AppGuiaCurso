@@ -3,6 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppGuiaCurso.App">
     <Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="redButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#AB0209"/>
+                <Setter Property="TextColor" Value="#FFF" />
+                <Setter Property="CornerRadius" Value="5"/>
+            </Style>
 
+            <Style x:Key="grayButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#3E474C"/>
+                <Setter Property="TextColor" Value="#FFFFFF"/>
+                <Setter Property="CornerRadius" Value="5" />
+            </Style>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
