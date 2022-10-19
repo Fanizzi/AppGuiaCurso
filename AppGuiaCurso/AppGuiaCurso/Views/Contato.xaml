@@ -1,12 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppGuiaCurso.Views.Contato">
+             x:Class="AppGuiaCurso.Views.Contato"
+             BackgroundColor="#F3F2F0"
+             Title="Contato">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
+
+            <Label Text="Etec Joaquim Ferreira do Amaral"
+                   FontSize="Title"
+                   FontAttributes="Bold"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="R. Humaitá, 1090 - Centro - CEP: 17201-320 - Jaú/SP"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Tel: (14) 3622-3566"
+                    Margin="10"
+                    Clicked="Button_Clicked" Style="{ StaticResource botaoVermelho }" />
+
+            <Label Text=""
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="E-mail: e070dir@cps.sp.gov.br"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

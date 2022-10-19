@@ -10,7 +10,8 @@ using AppGuiaCurso.Views;
 
 namespace AppGuiaCurso
 {
-    public partial class MainPage : MasterDetailPage
+    [DesignTimeVisible(false)]
+    public partial class MainPage : FlyoutPage
     {
         public MainPage()
         {

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+<FlyoutPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppGuiaCurso.MainPage">
 
-    <MasterDetailPage.Master>
+    <FlyoutPage.Detail>
         <ContentPage Title="Menu">
             <Grid BackgroundColor="#3E474C">
                 <Grid.RowDefinitions>
@@ -26,11 +26,11 @@
                              BackgroundColor="#F3F2F0">
 
                     <Button Text="Inicial" Clicked="Open_Inicial" Style="{StaticResource redButton}"/>
-                    
+
                     <Button Text="Primeiro Módulo" Clicked="Open_Primeiro" Style="{StaticResource grayButton}"/>
 
                     <Button Text="Segundo Módulo" Clicked="Open_Segundo" Style="{StaticResource grayButton}"/>
-                    
+
                     <Button Text="Terceiro Módulo" Clicked="Open_Terceiro" Style="{StaticResource grayButton}"/>
 
                     <Button Text="Vestibulinho" Clicked="Open_Vestibulinho" Style="{StaticResource redButton}"/>
@@ -39,12 +39,6 @@
                 </StackLayout>
             </Grid>
         </ContentPage>
-    </MasterDetailPage.Master>
+    </FlyoutPage.Detail>
 
-    <MasterDetailPage.Detail>
-        <NavigationPage>
-            
-        </NavigationPage>
-    </MasterDetailPage.Detail>
-
-</MasterDetailPage>
+</FlyoutPage>
