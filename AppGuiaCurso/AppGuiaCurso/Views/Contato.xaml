@@ -19,7 +19,7 @@
 
             <Button Text="Tel: (14) 3622-3566"
                     Margin="10"
-                    Clicked="Button_Clicked" Style="{ StaticResource botaoVermelho }" />
+                    Clicked="Button_Clicked" Style="{ StaticResource redButton }" />
 
             <Label Text=""
                     VerticalOptions="CenterAndExpand" 

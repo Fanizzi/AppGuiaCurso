@@ -20,6 +20,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Design\logo_etec.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Design\logo_etec.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>

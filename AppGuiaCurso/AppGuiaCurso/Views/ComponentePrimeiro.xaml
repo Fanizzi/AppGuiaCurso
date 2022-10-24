@@ -15,8 +15,8 @@
                 <Button Text="Análise e Projeto de Sistemas" Clicked="Button_Clicked_3" Style="{StaticResource grayButton}"/>
                 <Button Text="Design Digital" Clicked="Button_Clicked_4" Style="{StaticResource grayButton}"/>
                 <Button Text="Programação Web I" Clicked="Button_Clicked_5" Style="{StaticResource grayButton}"/>
-                <Button Text="Fundamentos da Informática" Clicked="Button_Clicked_6" Style="{StaticResource}" />
-                <Button Text="Técnicas de Programação" Clicked="Button_Clicked_7" Style="{StaticResource}" />
+                <Button Text="Fundamentos da Informática" Clicked="Button_Clicked_6" Style="{StaticResource grayButton}" />
+                <Button Text="Técnicas de Programação" Clicked="Button_Clicked_7" Style="{StaticResource grayButton}" />
                 
             </StackLayout>
         </ScrollView>

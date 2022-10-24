@@ -8,13 +8,13 @@
         <ScrollView>
             <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
 
-                <Button Text="Segurança de Sistemas de Informação " Clicked="Button_Clicked" Style="{ StaticResource botaoCinza }" />
-                <Button Text="Banco de Dados III " Clicked="Button_Clicked_1" Style="{ StaticResource botaoCinza }" />
-                <Button Text="Sistemas Embarcados " Clicked="Button_Clicked_2" Style="{ StaticResource botaoCinza }" />
-                <Button Text="Programação de Aplicativos Mobile II" Clicked="Button_Clicked_3" Style="{ StaticResource botaoCinza }" />
-                <Button Text="Programação Web III " Clicked="Button_Clicked_4" Style="{ StaticResource botaoCinza }" />
-                <Button Text="Qualidade e Teste de Software " Clicked="Button_Clicked_5" Style="{ StaticResource botaoCinza }" />
-                <Button Text="Ética e Cidadania Organizacional " Clicked="Button_Clicked_6" Style="{ StaticResource botaoCinza }" />
+                <Button Text="Segurança de Sistemas de Informação " Clicked="Button_Clicked" Style="{ StaticResource grayButton }" />
+                <Button Text="Banco de Dados III " Clicked="Button_Clicked_1" Style="{ StaticResource grayButton }" />
+                <Button Text="Sistemas Embarcados " Clicked="Button_Clicked_2" Style="{ StaticResource grayButton }" />
+                <Button Text="Programação de Aplicativos Mobile II" Clicked="Button_Clicked_3" Style="{ StaticResource grayButton }" />
+                <Button Text="Programação Web III " Clicked="Button_Clicked_4" Style="{ StaticResource grayButton }" />
+                <Button Text="Qualidade e Teste de Software " Clicked="Button_Clicked_5" Style="{ StaticResource grayButton }" />
+                <Button Text="Ética e Cidadania Organizacional " Clicked="Button_Clicked_6" Style="{ StaticResource grayButton }" />
                 <Button Text="Desenvolvimento do Trabalho de Conclusão de Curso (TCC) em Desenvolvimento de Sistemas" Clicked="Button_Clicked_7" Style="{ StaticResource botaoCinza }" />
 
             </StackLayout>

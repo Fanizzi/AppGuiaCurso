@@ -16,7 +16,7 @@
                              Padding="10"
                              Margin="10"
                              HorizontalOptions="FillAndExpand">
-                    <Image Source="logo_etec_fg" Aspect="AspectFit"/>
+                    <Image x:Name="logo" Aspect="AspectFit"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="1"

@@ -17,6 +17,8 @@ namespace AppGuiaCurso
         {
             InitializeComponent();
             Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Inicial)));
+
+            logo.Source = ImageSource.FromResource("AppGuiaCurso.Design.logo_etec.png");
         }
 
         private async void Open_Inicial(object sender, EventArgs e)
