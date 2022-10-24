@@ -18,7 +18,7 @@
                 
                 <Label Text="Em breve este App estará disponível na Play Store para download."
                        TextColor="#AB0209"
-                       Style="{StaticResource textoCentralizadao}" />
+                       Style="{StaticResource textoCentralizado}" />
                 <Image Source="foto_segundo_modulo"/>
             </StackLayout>
         </ScrollView>

@@ -11,7 +11,7 @@ using AppGuiaCurso.Views;
 namespace AppGuiaCurso
 {
     [DesignTimeVisible(false)]
-    public partial class MainPage : FlyoutPage
+    public partial class MainPage : MasterDetailPage
     {
         public MainPage()
         {

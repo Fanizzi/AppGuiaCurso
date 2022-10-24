@@ -15,6 +15,10 @@
                 <Setter Property="TextColor" Value="#FFFFFF"/>
                 <Setter Property="CornerRadius" Value="5" />
             </Style>
+
+            <Style x:Key="textoCentralizado" TargetType="Label">
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

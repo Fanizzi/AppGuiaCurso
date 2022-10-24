@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<FlyoutPage xmlns="http://xamarin.com/schemas/2014/forms"
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppGuiaCurso.MainPage">
 
-    <FlyoutPage.Detail>
+    <MasterDetailPage.Master>
         <ContentPage Title="Menu">
             <Grid BackgroundColor="#3E474C">
                 <Grid.RowDefinitions>
@@ -39,6 +39,11 @@
                 </StackLayout>
             </Grid>
         </ContentPage>
-    </FlyoutPage.Detail>
-
-</FlyoutPage>
+    </MasterDetailPage.Master>
+    
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+    
+</MasterDetailPage>
